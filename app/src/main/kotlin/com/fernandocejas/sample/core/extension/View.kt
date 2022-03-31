@@ -25,6 +25,7 @@ import androidx.fragment.app.FragmentActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.target.BaseTarget
+import com.bumptech.glide.request.target.CustomViewTarget
 import com.bumptech.glide.request.target.SizeReadyCallback
 import com.bumptech.glide.request.target.Target
 import com.bumptech.glide.request.transition.Transition

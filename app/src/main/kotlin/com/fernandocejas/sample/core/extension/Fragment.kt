@@ -26,7 +26,7 @@ import kotlinx.android.synthetic.main.activity_layout.*
 inline fun FragmentManager.inTransaction(func: FragmentTransaction.() -> FragmentTransaction) =
     beginTransaction().func().commit()
 
-fun BaseFragment.close() = fragmentManager?.popBackStack()
+fun BaseFragment.close() = childFragmentManager.popBackStack()
 
 val BaseFragment.viewContainer: View get() = (activity as BaseActivity).fragmentContainer
 
